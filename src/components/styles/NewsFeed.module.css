@@ -1,0 +1,14 @@
+.signOutButton:hover {
+    cursor: pointer;
+}
+
+.navbarContainer {
+    padding: 0 !important;
+}
+
+.navContainer {
+    background-image: url("../assets/shopping-background1.jpg");
+    display: flex !important; 
+    flex-direction: column !important;
+    width: 100%;
+}

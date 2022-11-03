@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    background-image: url("../assets/shopping-background.jpg");
+    background-size: 210vh 50vw;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .colContainerRight {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+} */
+
+/* .colContainerLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .leftBackground {
+    background-image: url("../assets/home-background.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+} */
+
+.colWithButtons {
+    width: 25%;
+    justify-content:center;
+    color: #46df71;
+    align-items: center;
+    margin-bottom: 250px;
+}
+
+.linkTextFormat {
+    text-decoration: none;
+    color: white;
+}
+
+.linkTextFormat:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.btnHomePage {
+    width: 150%;
+}
+
+@media only screen and (max-width: 575px) { 
+    .colContainerLeft {
+        display: none;
+    }
+
+    .colWithButtons {
+        width: 95%;
+        text-align: center;
+    }
+}
